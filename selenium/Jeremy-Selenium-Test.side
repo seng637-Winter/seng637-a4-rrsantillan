@@ -1,0 +1,693 @@
+{
+  "id": "c48faf29-46f3-4e60-b952-abf547e57494",
+  "version": "2.0",
+  "name": "Seng637_A4",
+  "url": "https://www.homedepot.com/account/view/calculator/ceramic",
+  "tests": [{
+    "id": "625bcaa0-a197-4515-abc5-704def48ad79",
+    "name": "valid input search bar",
+    "commands": [{
+      "id": "28d25fd1-dc69-47a1-a229-f290f901d247",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "84a91833-0779-4e40-9f93-b8cb003f0550",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0c2b211f-2fe1-4526-ac13-59cc6260d9c6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.swiper-slide-active .stretchy:nth-child(2)",
+      "targets": [
+        ["css=.swiper-slide-active .stretchy:nth-child(2)", "css:finder"],
+        ["xpath=//img[@alt='14Mar2024-HP-MW7-8-Hero1-Bath1-UP TO 50% OFF Select Online Vanities & Faucets']", "xpath:img"],
+        ["xpath=//div[@id='swiper-wrapper-cfb1031a11cc2b3c3']/div/div/a/picture/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8e48fb0-ebf4-4427-a563-c7d5503284f1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.swiper-slide-active .stretchy:nth-child(2)",
+      "targets": [
+        ["css=.swiper-slide-active .stretchy:nth-child(2)", "css:finder"],
+        ["xpath=//img[@alt='14Mar2024-HP-MW7-8-Hero1-Bath1-UP TO 50% OFF Select Online Vanities & Faucets']", "xpath:img"],
+        ["xpath=//div[@id='swiper-wrapper-cfb1031a11cc2b3c3']/div/div/a/picture/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "01791720-fa1a-4c12-b600-76ec9202ea0c",
+      "comment": "",
+      "command": "click",
+      "target": "id=typeahead-search-field-input",
+      "targets": [
+        ["id=typeahead-search-field-input", "id"],
+        ["name=keyword", "name"],
+        ["css=#typeahead-search-field-input", "css:finder"],
+        ["xpath=//input[@id='typeahead-search-field-input']", "xpath:attributes"],
+        ["xpath=//form[@id='header-search']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0a3ebbf-ad7b-444f-9076-07cfa1eb2b8a",
+      "comment": "",
+      "command": "type",
+      "target": "id=typeahead-search-field-input",
+      "targets": [
+        ["id=typeahead-search-field-input", "id"],
+        ["name=keyword", "name"],
+        ["css=#typeahead-search-field-input", "css:finder"],
+        ["xpath=//input[@id='typeahead-search-field-input']", "xpath:attributes"],
+        ["xpath=//form[@id='header-search']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "lawnmower"
+    }, {
+      "id": "2869c2be-ab44-4f90-9f46-c5c23375845d",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=typeahead-search-field-input",
+      "targets": [
+        ["id=typeahead-search-field-input", "id"],
+        ["name=keyword", "name"],
+        ["css=#typeahead-search-field-input", "css:finder"],
+        ["xpath=//input[@id='typeahead-search-field-input']", "xpath:attributes"],
+        ["xpath=//form[@id='header-search']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3fe3378d-37a1-4d4f-8958-b2b794ecb2ce",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=typeahead-search-icon-button",
+      "targets": [
+        ["id=typeahead-search-icon-button", "id"],
+        ["css=#typeahead-search-icon-button", "css:finder"],
+        ["xpath=//button[@id='typeahead-search-icon-button']", "xpath:attributes"],
+        ["xpath=//form[@id='header-search']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//form/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28b7d394-de4a-4804-ad8b-62d239845358",
+      "comment": "",
+      "command": "click",
+      "target": "id=typeahead-search-icon-button",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0e6c114a-6665-4021-915d-db205dac3e03",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "02f76ee9-2b05-4c08-bccb-344a8dfc3cdc",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Search Results for lawnmower at The Home Depot",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9c37a4dd-5f02-407a-b60d-334b4d340f8d",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.visual-category-navigation:nth-child(1) > .vis-nav__link > .vis-nav__title",
+      "targets": [
+        ["css=.visual-category-navigation:nth-child(1) > .vis-nav__link > .vis-nav__title", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div[4]/div/div/div/div/div/a/div[2]", "xpath:idRelative"],
+        ["xpath=//a/div[2]", "xpath:position"]
+      ],
+      "value": "Lawn Mowers"
+    }, {
+      "id": "24493c12-e4cb-408a-bcce-683dffbaef43",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.visual-category-navigation:nth-child(2) .vis-nav__title",
+      "targets": [
+        ["css=.visual-category-navigation:nth-child(2) .vis-nav__title", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div[4]/div/div/div/div/div[2]/a/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/a/div[2]", "xpath:position"]
+      ],
+      "value": "Push Mowers"
+    }]
+  }, {
+    "id": "9013a6c6-b8a0-4d9a-8ebf-61820093f885",
+    "name": "view tile calculator",
+    "commands": [{
+      "id": "ba0235e9-3821-47ae-bc11-f48f174257c1",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1aa27896-fb49-4627-85a6-351d53f0c894",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "257009a3-5ef9-4556-a409-546b5a463475",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.focus-visible\\3Asui-outline:nth-child(3) path",
+      "targets": [
+        ["css=.focus-visible\\3Asui-outline:nth-child(3) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "47d952ea-1a63-4729-9684-105aeade583f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.focus-visible\\3Asui-outline:nth-child(3) path",
+      "targets": [
+        ["css=.focus-visible\\3Asui-outline:nth-child(3) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0f34c6f-a550-462e-a682-4ba827b7c7f3",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sui-fill-brand > .sui-h-4 > path",
+      "targets": [
+        ["css=.sui-fill-brand > .sui-h-4 > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "954ac5cd-8ce9-4cc3-b64b-49c9772bd842",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sui-fill-brand > .sui-min-fit",
+      "targets": [
+        ["css=.sui-fill-brand > .sui-min-fit", "css:finder"],
+        ["xpath=//div[@id='header-nav-container']/div/button[3]/div", "xpath:idRelative"],
+        ["xpath=//button[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b844905-0aad-4beb-936f-97cb59035a2f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sui-fill-brand > .sui-min-fit",
+      "targets": [
+        ["css=.sui-fill-brand > .sui-min-fit", "css:finder"],
+        ["xpath=//div[@id='header-nav-container']/div/button[3]/div", "xpath:idRelative"],
+        ["xpath=//button[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "443e5347-1113-4189-8143-a9f708c2fdf6",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu-item-id-areJAUeV4SHIJtJwWhNnQ .sui-font-regular",
+      "targets": [
+        ["css=#menu-item-id-areJAUeV4SHIJtJwWhNnQ .sui-font-regular", "css:finder"],
+        ["xpath=//a[@id='menu-item-id-areJAUeV4SHIJtJwWhNnQ']/span/div[2]/span", "xpath:idRelative"],
+        ["xpath=//a/span/div[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd9695f5-1999-4940-8b8f-6197a5532fab",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "DIY Projects and Ideas / Project Calculators - The Home Depot",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a8b79d0e-6c82-4be9-9c6e-56264128d3fd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Learn More",
+      "targets": [
+        ["linkText=Learn More", "linkText"],
+        ["css=#Resource-1-7KVlqbD5GLbXBI6RQdZcQ7 .sui-btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Learn More')]", "xpath:link"],
+        ["xpath=//div[@id='Resource-1-7KVlqbD5GLbXBI6RQdZcQ7']/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.homedepot.com/account/view/calculator/ceramic')]", "xpath:href"],
+        ["xpath=//section/div/div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Learn More')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8449ba8e-dc01-4e6d-a0cc-dcd06a80bff4",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.u__xlarge",
+      "targets": [
+        ["css=.u__xlarge", "css:finder"],
+        ["xpath=//div[@id='root']/div/p", "xpath:idRelative"],
+        ["xpath=//div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Ceramic Tile Calculator')]", "xpath:innerText"]
+      ],
+      "value": "Ceramic Tile Calculator"
+    }]
+  }, {
+    "id": "ff1c3e2d-94f5-4900-ae4a-517691a06861",
+    "name": "tile calculator invalid input",
+    "commands": [{
+      "id": "546b5145-20a7-4f1e-89ec-dbd36d3f6e7d",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.com/account/view/calculator/ceramic",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "50de61b9-3a2d-43c0-9256-0251413e393a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1918x1030",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb0398cb-6eeb-4d52-a64b-aa2b3cdc45f2",
+      "comment": "",
+      "command": "click",
+      "target": "name=lengthFeet",
+      "targets": [
+        ["name=lengthFeet", "name"],
+        ["css=.Mui-focused > .MuiInputBase-input", "css:finder"],
+        ["xpath=//input[@name='lengthFeet']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div[2]/div/div/form/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8da83f8-97c5-4354-82f2-f664f1208c1a",
+      "comment": "",
+      "command": "type",
+      "target": "name=lengthFeet",
+      "targets": [
+        ["name=lengthFeet", "name"],
+        ["css=.Mui-focused > .MuiInputBase-input", "css:finder"],
+        ["xpath=//input[@name='lengthFeet']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div[2]/div/div/form/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "20"
+    }, {
+      "id": "9e8844c0-9b2e-4e3f-b4a2-71b2fd4e0a2c",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "id=mui-component-select-surfaceTileSize",
+      "targets": [
+        ["id=mui-component-select-surfaceTileSize", "id"],
+        ["css=#mui-component-select-surfaceTileSize", "css:finder"],
+        ["xpath=//div[@id='mui-component-select-surfaceTileSize']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div[2]/div/div/form/div/div[5]/div/div", "xpath:idRelative"],
+        ["xpath=//form/div/div[5]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc8e946d-fec1-49fb-97e5-d80d0cf00144",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.MuiButtonBase-root:nth-child(5)",
+      "targets": [
+        ["css=.MuiButtonBase-root:nth-child(5)", "css:finder"],
+        ["xpath=//div[@id='menu-surfaceTileSize']/div[3]/ul/li[5]", "xpath:idRelative"],
+        ["xpath=//div[8]/div[3]/ul/li[5]", "xpath:position"],
+        ["xpath=//li[contains(.,'8\" x 8\"')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "743d0852-ab40-49bb-bf9b-8cf533c2ee4b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.account-home",
+      "targets": [
+        ["css=.account-home", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "69859b42-2c59-4ee9-b0c2-239fae174fe1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButtonBase-root:nth-child(3)",
+      "targets": [
+        ["css=.MuiButtonBase-root:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='menu-surfaceTileSize']/div[3]/ul/li[3]", "xpath:idRelative"],
+        ["xpath=//div[8]/div[3]/ul/li[3]", "xpath:position"],
+        ["xpath=//li[contains(.,'6\" x 6\"')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "df44a1ec-3563-48cc-89d5-f7cb4728c472",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButton-label",
+      "targets": [
+        ["css=.MuiButton-label", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div[2]/div/div/form/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/form/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'CALCULATE NOW')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c9ee945-050b-4334-a267-f58526697458",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-justify-content-xs-center",
+      "targets": [
+        ["css=.MuiGrid-justify-content-xs-center", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "37d9610e-fc31-4b1b-b177-1a50f64c4428",
+      "comment": "",
+      "command": "click",
+      "target": "css=.error-message__error___3vwW0",
+      "targets": [
+        ["css=.error-message__error___3vwW0", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div[2]/div/div/form/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8110c995-d3df-4760-8b14-b8514410717d",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.jss51",
+      "targets": [
+        ["css=.jss51", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div[2]/div/div/form/div[2]/div/div/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'The Surface Width should be greater than zero')]", "xpath:innerText"]
+      ],
+      "value": "The Surface Width should be greater than zero"
+    }, {
+      "id": "ff38cdfc-9c3f-4c2e-85db-4e1a895cf6df",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.jss48",
+      "targets": [
+        ["css=.jss48", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div[2]/div/div/p[2]", "xpath:idRelative"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'Surface Tiles: 0 tiles')]", "xpath:innerText"]
+      ],
+      "value": "Surface Tiles: 0 tiles"
+    }]
+  }, {
+    "id": "1323c995-d95a-4621-b9df-bcce7e028b7b",
+    "name": "tile calculator valid input",
+    "commands": [{
+      "id": "5514c6c3-b7eb-4475-b7ec-63b665f8c731",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.com/account/view/calculator/ceramic",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fced511b-dded-4cf2-add2-0600deabcc50",
+      "comment": "",
+      "command": "click",
+      "target": "name=lengthFeet",
+      "targets": [
+        ["name=lengthFeet", "name"],
+        ["css=.Mui-focused > .MuiInputBase-input", "css:finder"],
+        ["xpath=//input[@name='lengthFeet']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div[2]/div/div/form/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b727f4c-3109-4937-896b-dd707b3bb8eb",
+      "comment": "",
+      "command": "type",
+      "target": "name=lengthFeet",
+      "targets": [
+        ["name=lengthFeet", "name"],
+        ["css=.Mui-focused > .MuiInputBase-input", "css:finder"],
+        ["xpath=//input[@name='lengthFeet']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div[2]/div/div/form/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "20"
+    }, {
+      "id": "5db739d6-1f97-41fe-956d-359322b79b92",
+      "comment": "",
+      "command": "click",
+      "target": "name=widthFeet",
+      "targets": [
+        ["name=widthFeet", "name"],
+        ["css=.Mui-focused > .MuiInputBase-input", "css:finder"],
+        ["xpath=//input[@name='widthFeet']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div[2]/div/div/form/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f177a7d1-9b97-49ba-b8b8-5ff3190767cd",
+      "comment": "",
+      "command": "type",
+      "target": "name=widthFeet",
+      "targets": [
+        ["name=widthFeet", "name"],
+        ["css=.Mui-focused > .MuiInputBase-input", "css:finder"],
+        ["xpath=//input[@name='widthFeet']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div[2]/div/div/form/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "10"
+    }, {
+      "id": "99e0e085-b0ee-477b-a8e2-5994159994ae",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "id=mui-component-select-surfaceTileSize",
+      "targets": [
+        ["id=mui-component-select-surfaceTileSize", "id"],
+        ["css=#mui-component-select-surfaceTileSize", "css:finder"],
+        ["xpath=//div[@id='mui-component-select-surfaceTileSize']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div[2]/div/div/form/div/div[5]/div/div", "xpath:idRelative"],
+        ["xpath=//form/div/div[5]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c6b744d-ec00-4be9-a853-ec98ff62acfe",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.MuiButtonBase-root:nth-child(5)",
+      "targets": [
+        ["css=.MuiButtonBase-root:nth-child(5)", "css:finder"],
+        ["xpath=//div[@id='menu-surfaceTileSize']/div[3]/ul/li[5]", "xpath:idRelative"],
+        ["xpath=//div[8]/div[3]/ul/li[5]", "xpath:position"],
+        ["xpath=//li[contains(.,'8\" x 8\"')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2988b81-6ee9-4454-864d-d0c891742a58",
+      "comment": "",
+      "command": "click",
+      "target": "css=.account-home",
+      "targets": [
+        ["css=.account-home", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5a13f33-40b5-44a5-af2a-d731a571f240",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButtonBase-root:nth-child(3)",
+      "targets": [
+        ["css=.MuiButtonBase-root:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='menu-surfaceTileSize']/div[3]/ul/li[3]", "xpath:idRelative"],
+        ["xpath=//div[8]/div[3]/ul/li[3]", "xpath:position"],
+        ["xpath=//li[contains(.,'6\" x 6\"')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "07e54ac8-f0bc-4110-9629-7746d9a203e3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButton-label",
+      "targets": [
+        ["css=.MuiButton-label", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div[2]/div/div/form/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/form/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'CALCULATE NOW')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "73e96377-8c23-4f41-90f1-f2e762173b58",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,59)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e5906f92-3afc-487d-a1a0-525b969659c0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss48",
+      "targets": [
+        ["css=.jss48", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div[2]/div/div/p[2]", "xpath:idRelative"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'Surface Tiles: 880 tiles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee740100-5d96-4d90-8f91-c87dbd378216",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.jss48",
+      "targets": [
+        ["css=.jss48", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div[2]/div/div/p[2]", "xpath:idRelative"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'Surface Tiles: 880 tiles')]", "xpath:innerText"]
+      ],
+      "value": "Surface Tiles: 880 tiles"
+    }]
+  }, {
+    "id": "e9a37ac3-a9f9-4872-8d08-7ba02f19bbcb",
+    "name": "invalid input search bar",
+    "commands": [{
+      "id": "361a42ed-0416-4ee1-a387-7125c5e693bc",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b7c47b7d-25ca-45e2-8d68-d5b178af5ac8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d97fabab-e5a8-4967-ad66-ab036c1ef5b9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.swiper-slide-active .stretchy:nth-child(2)",
+      "targets": [
+        ["css=.swiper-slide-active .stretchy:nth-child(2)", "css:finder"],
+        ["xpath=//img[@alt='14Mar2024-HP-MW7-8-Hero1-Bath1-UP TO 50% OFF Select Online Vanities & Faucets']", "xpath:img"],
+        ["xpath=//div[@id='swiper-wrapper-cfb1031a11cc2b3c3']/div/div/a/picture/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca488737-79a7-4e72-92a4-cf70987e7fd0",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.swiper-slide-active .stretchy:nth-child(2)",
+      "targets": [
+        ["css=.swiper-slide-active .stretchy:nth-child(2)", "css:finder"],
+        ["xpath=//img[@alt='14Mar2024-HP-MW7-8-Hero1-Bath1-UP TO 50% OFF Select Online Vanities & Faucets']", "xpath:img"],
+        ["xpath=//div[@id='swiper-wrapper-cfb1031a11cc2b3c3']/div/div/a/picture/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b14e7dda-7aee-4f6e-b232-8c431de84105",
+      "comment": "",
+      "command": "click",
+      "target": "id=typeahead-search-field-input",
+      "targets": [
+        ["id=typeahead-search-field-input", "id"],
+        ["name=keyword", "name"],
+        ["css=#typeahead-search-field-input", "css:finder"],
+        ["xpath=//input[@id='typeahead-search-field-input']", "xpath:attributes"],
+        ["xpath=//form[@id='header-search']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "657850ee-ed3b-429f-b716-b97af2298816",
+      "comment": "",
+      "command": "type",
+      "target": "id=typeahead-search-field-input",
+      "targets": [
+        ["id=typeahead-search-field-input", "id"],
+        ["name=keyword", "name"],
+        ["css=#typeahead-search-field-input", "css:finder"],
+        ["xpath=//input[@id='typeahead-search-field-input']", "xpath:attributes"],
+        ["xpath=//form[@id='header-search']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "****"
+    }, {
+      "id": "0fba4bec-2331-4109-972c-4c270fcff174",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=typeahead-search-field-input",
+      "targets": [
+        ["id=typeahead-search-field-input", "id"],
+        ["name=keyword", "name"],
+        ["css=#typeahead-search-field-input", "css:finder"],
+        ["xpath=//input[@id='typeahead-search-field-input']", "xpath:attributes"],
+        ["xpath=//form[@id='header-search']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a209cc11-ffae-4780-a9e3-686762400e8e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=typeahead-search-icon-button",
+      "targets": [
+        ["id=typeahead-search-icon-button", "id"],
+        ["css=#typeahead-search-icon-button", "css:finder"],
+        ["xpath=//button[@id='typeahead-search-icon-button']", "xpath:attributes"],
+        ["xpath=//form[@id='header-search']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//form/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b2e4164-3923-4b9e-aa1a-0526735ae442",
+      "comment": "",
+      "command": "click",
+      "target": "id=typeahead-search-icon-button",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c33469a4-97d6-4aee-9c6a-8a8e5f634caa",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "61770539-580a-4bdd-b25a-b48c3d4845d7",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.results-wrapped--no-products",
+      "targets": [
+        ["css=.results-wrapped--no-products", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div[6]/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/div/div", "xpath:position"]
+      ],
+      "value": "Sorry, there are no products available online or in your local store. Please use our Store Finder to select another local store."
+    }]
+  }],
+  "suites": [{
+    "id": "e406566d-1a96-4c6f-aa7a-f66706de3675",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.homedepot.com/", "https://www.homedepot.com/account/view/calculator/ceramic"],
+  "plugins": []
+}

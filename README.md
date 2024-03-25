@@ -2,5 +2,5 @@
 
 # Guidline
 
-- read [assignment guideline](seng637-a4.md)
+- read [assignment guideline](documents/seng637-a4.md)
 - commit and push output on **Github** ([assignment report template](./seng637-a4-team_number.md))

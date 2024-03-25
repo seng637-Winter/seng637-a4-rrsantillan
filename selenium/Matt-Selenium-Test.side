@@ -1,0 +1,567 @@
+{
+  "id": "c2a348ef-8db5-4d03-9190-b45ec4cd2184",
+  "version": "2.0",
+  "name": "SENG637 Assignment 4 - Home Depot Site Testing",
+  "url": "https://www.homedepot.ca/",
+  "tests": [{
+    "id": "4c92d7ea-bd7b-4159-aeeb-76663c65017b",
+    "name": "Store Locator (T2L2L8)",
+    "commands": [{
+      "id": "874724c5-be8d-49ed-875a-50c9a4c62bc0",
+      "comment": "",
+      "command": "open",
+      "target": "/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1bc36afc-b0ae-4887-b7ec-0bf4744fbc23",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "2576x1408",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bff3025e-3261-4c83-902e-b34f8a91a218",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-store-hours-menu__info-title",
+      "targets": [
+        ["css=.acl-store-hours-menu__info-title", "css:finder"],
+        ["xpath=//div[@id='acl-store-hours-menu__wrapper']/div[2]/h6", "xpath:idRelative"],
+        ["xpath=//h6", "xpath:position"],
+        ["xpath=//h6[contains(.,'Edmonton S. (South Common)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "406dda7e-7a34-4f44-a9d0-0c94d1189db4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Change Store",
+      "targets": [
+        ["linkText=Change Store", "linkText"],
+        ["css=.acl-store-info__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Change Store')]", "xpath:link"],
+        ["xpath=//acl-dropdown[@id='global-header-store-hours-menu-dropdown']/div[3]/div/section/acl-store-info/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:void(0)')]", "xpath:href"],
+        ["xpath=//acl-store-info/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Change Store')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2089c080-dd10-4762-959b-f8768a9ead44",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Change Store",
+      "targets": [
+        ["linkText=Change Store", "linkText"],
+        ["css=.acl-store-info__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Change Store')]", "xpath:link"],
+        ["xpath=//acl-dropdown[@id='global-header-store-hours-menu-dropdown']/div[3]/div/section/acl-store-info/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:void(0)')]", "xpath:href"],
+        ["xpath=//acl-store-info/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Change Store')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2936b8f5-965c-49e0-bb1b-e8f5d1e6e13a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Change Store",
+      "targets": [
+        ["linkText=Change Store", "linkText"],
+        ["css=.acl-store-info__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Change Store')]", "xpath:link"],
+        ["xpath=//acl-dropdown[@id='global-header-store-hours-menu-dropdown']/div[3]/div/section/acl-store-info/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:void(0)')]", "xpath:href"],
+        ["xpath=//acl-store-info/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Change Store')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "30a7c661-8cf8-4758-abe7-e4858fa758ad",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.acl-modal__backdrop",
+      "targets": [
+        ["css=.acl-modal__backdrop", "css:finder"],
+        ["xpath=//acl-modal/div[2]", "xpath:position"]
+      ],
+      "value": "750,150"
+    }, {
+      "id": "ff4af3be-d2b1-4eca-939a-caf835d045f2",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.acl-modal__backdrop",
+      "targets": [
+        ["css=.acl-modal__backdrop", "css:finder"],
+        ["xpath=//acl-modal/div[2]", "xpath:position"]
+      ],
+      "value": "750,150"
+    }, {
+      "id": "a5f667c1-29f3-445f-8fb1-8b9ff281463f",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.acl-modal__backdrop",
+      "targets": [
+        ["css=.acl-modal__backdrop", "css:finder"],
+        ["xpath=//acl-modal/div[2]", "xpath:position"]
+      ],
+      "value": "750,150"
+    }, {
+      "id": "491edcdf-9766-4b26-9412-d03320cb4e3e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-modal",
+      "targets": [
+        ["css=.acl-modal", "css:finder"],
+        ["xpath=//acl-modal", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f48f1ba2-3eda-4494-a34d-81cbd038ee70",
+      "comment": "",
+      "command": "type",
+      "target": "id=default",
+      "targets": [
+        ["id=default", "id"],
+        ["name=default", "name"],
+        ["css=#default", "css:finder"],
+        ["xpath=//input[@id='default']", "xpath:attributes"],
+        ["xpath=//form/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "T2L2L8"
+    }, {
+      "id": "ced2c3b5-3c99-4752-a828-62bc89195592",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.hdca-store-list-item:nth-child(1) .hdca-store__name",
+      "targets": [
+        ["css=.hdca-store-list-item:nth-child(1) .hdca-store__name", "css:finder"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'CALGARY COUNTRY HILLS #7111')]", "xpath:innerText"]
+      ],
+      "value": "CALGARY COUNTRY HILLS #7111"
+    }]
+  }, {
+    "id": "57aca5fe-e8a5-4c3f-8b43-c5add54cd784",
+    "name": "Store Locator (T5T7G7) ",
+    "commands": [{
+      "id": "c431df6a-47c6-44e5-b71f-3e461a411341",
+      "comment": "",
+      "command": "open",
+      "target": "/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "daf375c2-3eaf-4beb-ab40-b319726468e6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "2576x1408",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b23fb11c-190a-4239-ad9a-7b03aa4e5055",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-store-hours-menu__info-title",
+      "targets": [
+        ["css=.acl-store-hours-menu__info-title", "css:finder"],
+        ["xpath=//div[@id='acl-store-hours-menu__wrapper']/div[2]/h6", "xpath:idRelative"],
+        ["xpath=//h6", "xpath:position"],
+        ["xpath=//h6[contains(.,'Edmonton S. (South Common)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "62afe0b5-e1c9-4367-ab42-9aeef8ed0c33",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Change Store",
+      "targets": [
+        ["linkText=Change Store", "linkText"],
+        ["css=.acl-store-info__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Change Store')]", "xpath:link"],
+        ["xpath=//acl-dropdown[@id='global-header-store-hours-menu-dropdown']/div[3]/div/section/acl-store-info/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:void(0)')]", "xpath:href"],
+        ["xpath=//acl-store-info/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Change Store')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f478008a-2166-4540-9329-cfc219af8366",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Change Store",
+      "targets": [
+        ["linkText=Change Store", "linkText"],
+        ["css=.acl-store-info__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Change Store')]", "xpath:link"],
+        ["xpath=//acl-dropdown[@id='global-header-store-hours-menu-dropdown']/div[3]/div/section/acl-store-info/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:void(0)')]", "xpath:href"],
+        ["xpath=//acl-store-info/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Change Store')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c4642c2-633d-402a-9427-acfdf6cecd86",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Change Store",
+      "targets": [
+        ["linkText=Change Store", "linkText"],
+        ["css=.acl-store-info__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Change Store')]", "xpath:link"],
+        ["xpath=//acl-dropdown[@id='global-header-store-hours-menu-dropdown']/div[3]/div/section/acl-store-info/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:void(0)')]", "xpath:href"],
+        ["xpath=//acl-store-info/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Change Store')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "34db551d-7741-4271-b343-8fe1f45f1845",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.acl-modal__backdrop",
+      "targets": [
+        ["css=.acl-modal__backdrop", "css:finder"],
+        ["xpath=//acl-modal/div[2]", "xpath:position"]
+      ],
+      "value": "750,150"
+    }, {
+      "id": "aa114a43-368d-4261-8fc4-826d53d46ff0",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.acl-modal__backdrop",
+      "targets": [
+        ["css=.acl-modal__backdrop", "css:finder"],
+        ["xpath=//acl-modal/div[2]", "xpath:position"]
+      ],
+      "value": "750,150"
+    }, {
+      "id": "be815a63-9aaf-499b-a620-c21eecb53d7f",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.acl-modal__backdrop",
+      "targets": [
+        ["css=.acl-modal__backdrop", "css:finder"],
+        ["xpath=//acl-modal/div[2]", "xpath:position"]
+      ],
+      "value": "750,150"
+    }, {
+      "id": "35d6479e-7640-47e8-b07b-7c2159329476",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-modal",
+      "targets": [
+        ["css=.acl-modal", "css:finder"],
+        ["xpath=//acl-modal", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f2be453-4712-4fd8-a616-f4fe50c63e1e",
+      "comment": "",
+      "command": "type",
+      "target": "id=default",
+      "targets": [
+        ["id=default", "id"],
+        ["name=default", "name"],
+        ["css=#default", "css:finder"],
+        ["xpath=//input[@id='default']", "xpath:attributes"],
+        ["xpath=//form/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "T5T7G7"
+    }, {
+      "id": "cafcc66a-c79a-4f45-b541-05de0f087325",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hdca-input-group__action-button-icon > svg",
+      "targets": [
+        ["css=.hdca-input-group__action-button-icon > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a00ee4a5-4a18-42da-a615-5c87ebbc8cd7",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.hdca-store-list-item:nth-child(1) .hdca-store__name",
+      "targets": [],
+      "value": "EDMONTON W. (WESTEND) #7064"
+    }]
+  }, {
+    "id": "a5e267f5-99e7-49e1-a28a-52a08666799b",
+    "name": "Product Search by SKU (320557212)",
+    "commands": [{
+      "id": "37c27041-6fa7-450e-a315-e32b5dc48a33",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0610ccf3-e771-4b61-a83f-0456af6d95c9",
+      "comment": "",
+      "command": "click",
+      "target": "id=typeahead-search-field-input",
+      "targets": [
+        ["id=typeahead-search-field-input", "id"],
+        ["name=keyword", "name"],
+        ["css=#typeahead-search-field-input", "css:finder"],
+        ["xpath=//input[@id='typeahead-search-field-input']", "xpath:attributes"],
+        ["xpath=//form[@id='header-search']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e148c4d-7dbc-438e-b616-b59a315839bc",
+      "comment": "",
+      "command": "click",
+      "target": "id=typeahead-search-field-input",
+      "targets": [
+        ["id=typeahead-search-field-input", "id"],
+        ["name=keyword", "name"],
+        ["css=#typeahead-search-field-input", "css:finder"],
+        ["xpath=//input[@id='typeahead-search-field-input']", "xpath:attributes"],
+        ["xpath=//form[@id='header-search']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28190a27-74a5-4a54-bd14-dac2076144bf",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sui-flex-col:nth-child(1) > .sui-h-4",
+      "targets": [
+        ["css=.sui-flex-col:nth-child(1) > .sui-h-4", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a50b32a8-f8f3-4235-95a1-3877634df47c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=typeahead-search-icon-button",
+      "targets": [
+        ["id=typeahead-search-icon-button", "id"],
+        ["css=#typeahead-search-icon-button", "css:finder"],
+        ["xpath=//button[@id='typeahead-search-icon-button']", "xpath:attributes"],
+        ["xpath=//form[@id='header-search']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//form/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71c1452a-5a33-4460-8a8a-e9862a0a4e9b",
+      "comment": "",
+      "command": "type",
+      "target": "id=typeahead-search-field-input",
+      "targets": [
+        ["id=typeahead-search-field-input", "id"],
+        ["name=keyword", "name"],
+        ["css=#typeahead-search-field-input", "css:finder"],
+        ["xpath=//input[@id='typeahead-search-field-input']", "xpath:attributes"],
+        ["xpath=//form[@id='header-search']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "320557212"
+    }, {
+      "id": "a89273d1-791b-44c5-ba22-c818ae8da22f",
+      "comment": "",
+      "command": "click",
+      "target": "id=typeahead-search-icon-button",
+      "targets": [
+        ["id=typeahead-search-icon-button", "id"],
+        ["css=#typeahead-search-icon-button", "css:finder"],
+        ["xpath=//button[@id='typeahead-search-icon-button']", "xpath:attributes"],
+        ["xpath=//form[@id='header-search']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//form/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3fedbf4-a254-4c33-ae9d-3a0f421d9c73",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=typeahead-search-icon-button",
+      "targets": [
+        ["id=typeahead-search-icon-button", "id"],
+        ["css=#typeahead-search-icon-button", "css:finder"],
+        ["xpath=//button[@id='typeahead-search-icon-button']", "xpath:attributes"],
+        ["xpath=//form[@id='header-search']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//form/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bb07820-c6f8-4e02-96b3-756891b490e9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mediagallery__mainimage--clickable > div > div",
+      "targets": [
+        ["css=.mediagallery__mainimage--clickable > div > div", "css:finder"],
+        ["xpath=//div[@id='media-gallery']/div/div/div[2]/div/button/div/div", "xpath:idRelative"],
+        ["xpath=//button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "21b80255-78d6-4da2-a21e-c56dd1085be0",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mediagallery__mainimage--clickable div:nth-child(2)",
+      "targets": [
+        ["css=.mediagallery__mainimage--clickable div:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='media-gallery']/div/div/div[2]/div/button/div/div", "xpath:idRelative"],
+        ["xpath=//button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85e5fe5b-12fc-48d0-a5c6-d8f691d2f44a",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.sui-h4-bold",
+      "targets": [],
+      "value": "12 in. Arkansas Santa"
+    }]
+  }, {
+    "id": "9fca7704-8b8a-45c2-b927-e9c047af63b5",
+    "name": "Product Search by SKU (1008788826) (1)",
+    "commands": [{
+      "id": "cc138a7a-c0d1-464f-8215-5f4f029b232a",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3fe288a2-e5d2-4ea7-a1af-1678a948cd04",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "2576x1408",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "282f3b4a-0020-4876-b99a-f58c1a4c2522",
+      "comment": "",
+      "command": "click",
+      "target": "id=typeahead-search-field-input",
+      "targets": [
+        ["id=typeahead-search-field-input", "id"],
+        ["name=keyword", "name"],
+        ["css=#typeahead-search-field-input", "css:finder"],
+        ["xpath=//input[@id='typeahead-search-field-input']", "xpath:attributes"],
+        ["xpath=//form[@id='header-search']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "767dd071-28a7-47be-b5d8-a0fd398181e1",
+      "comment": "",
+      "command": "click",
+      "target": "id=typeahead-search-field-input",
+      "targets": [
+        ["id=typeahead-search-field-input", "id"],
+        ["name=keyword", "name"],
+        ["css=#typeahead-search-field-input", "css:finder"],
+        ["xpath=//input[@id='typeahead-search-field-input']", "xpath:attributes"],
+        ["xpath=//form[@id='header-search']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4de54e87-1035-4d37-a216-ec5ea034630c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sui-flex-col:nth-child(1) > .sui-h-4",
+      "targets": [
+        ["css=.sui-flex-col:nth-child(1) > .sui-h-4", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd7ffba7-ff9c-4dbf-92b2-13ccc2257a67",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=typeahead-search-icon-button",
+      "targets": [
+        ["id=typeahead-search-icon-button", "id"],
+        ["css=#typeahead-search-icon-button", "css:finder"],
+        ["xpath=//button[@id='typeahead-search-icon-button']", "xpath:attributes"],
+        ["xpath=//form[@id='header-search']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//form/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d28e19c-33d6-4722-9916-6a443b5e2e51",
+      "comment": "",
+      "command": "type",
+      "target": "id=typeahead-search-field-input",
+      "targets": [
+        ["id=typeahead-search-field-input", "id"],
+        ["name=keyword", "name"],
+        ["css=#typeahead-search-field-input", "css:finder"],
+        ["xpath=//input[@id='typeahead-search-field-input']", "xpath:attributes"],
+        ["xpath=//form[@id='header-search']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1008788826"
+    }, {
+      "id": "ad99b081-9319-4800-bf24-2351ff1ed7b7",
+      "comment": "",
+      "command": "click",
+      "target": "id=typeahead-search-icon-button",
+      "targets": [
+        ["id=typeahead-search-icon-button", "id"],
+        ["css=#typeahead-search-icon-button", "css:finder"],
+        ["xpath=//button[@id='typeahead-search-icon-button']", "xpath:attributes"],
+        ["xpath=//form[@id='header-search']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//form/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "880f48c6-3358-44a6-b77c-45f9cb272ece",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=typeahead-search-icon-button",
+      "targets": [
+        ["id=typeahead-search-icon-button", "id"],
+        ["css=#typeahead-search-icon-button", "css:finder"],
+        ["xpath=//button[@id='typeahead-search-icon-button']", "xpath:attributes"],
+        ["xpath=//form[@id='header-search']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//form/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9ea5b87-2b7d-442f-879e-3dea770242f8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mediagallery__mainimage--clickable > div > div",
+      "targets": [
+        ["css=.mediagallery__mainimage--clickable > div > div", "css:finder"],
+        ["xpath=//div[@id='media-gallery']/div/div/div[2]/div/button/div/div", "xpath:idRelative"],
+        ["xpath=//button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6e93497-0c0e-446b-bc06-de5782c44a40",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mediagallery__mainimage--clickable div:nth-child(2)",
+      "targets": [
+        ["css=.mediagallery__mainimage--clickable div:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='media-gallery']/div/div/div[2]/div/button/div/div", "xpath:idRelative"],
+        ["xpath=//button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9f40236-754c-492b-81e7-d2413b9dd799",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.sui-h4-bold",
+      "targets": [],
+      "value": "27-In-1 Ratcheting Multi-Bit Screwdriver"
+    }]
+  }],
+  "suites": [{
+    "id": "4e0f0c5a-5cd8-4f09-95f1-7c16f7aff10b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4c92d7ea-bd7b-4159-aeeb-76663c65017b"]
+  }],
+  "urls": ["https://www.homedepot.com/", "https://www.homedepot.ca/"],
+  "plugins": []
+}
